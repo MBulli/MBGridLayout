@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34FE72D0-75AC-4B9C-AC73-FDBE0889FE4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MBGridLayout-Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6A131E20F22157CD042D19F33DFD984BCC398D2</key>
+		<string>https://github.com/MBulli/MBGridLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MBGridLayout-Demo/MBGridLayout-Demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6A131E20F22157CD042D19F33DFD984BCC398D2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MBulli/MBGridLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6A131E20F22157CD042D19F33DFD984BCC398D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6A131E20F22157CD042D19F33DFD984BCC398D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBGridLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+workspace 'MBGridLayout.xcworkspace'
+xcodeproj 'MBGridLayout-Demo/MBGridLayout-Demo.xcodeproj'
+# xcodeproj 'MBGridLayout/MBGridLayout.xcodeproj'
+
+target 'MBGridLayout-Demo' do
+  xcodeproj 'MBGridLayout-Demo/MBGridLayout-Demo.xcodeproj'  
+end
+
+target 'MBGridLayoutTests' do
+  xcodeproj 'MBGridLayout/MBGridLayout.xcodeproj'
+
+  pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
+  pod 'Expecta', '~> 0.3.1'
+end
+

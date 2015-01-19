@@ -13,17 +13,9 @@
 		28CF758D1A6CAA4D00D635DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CF758B1A6CAA4D00D635DE /* Main.storyboard */; };
 		28CF758F1A6CAA4D00D635DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CF758E1A6CAA4D00D635DE /* Images.xcassets */; };
 		28CF75921A6CAA4D00D635DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CF75901A6CAA4D00D635DE /* LaunchScreen.xib */; };
-		28CF759E1A6CAA4D00D635DE /* MBGridLayout_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF759D1A6CAA4D00D635DE /* MBGridLayout_DemoTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28CF75981A6CAA4D00D635DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28CF75761A6CAA4D00D635DE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28CF757D1A6CAA4D00D635DE;
-			remoteInfo = "MBGridLayout-Demo";
-		};
 		28CF75E21A6CB08700D635DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28CF75DD1A6CB08600D635DE /* MBGridLayout.xcodeproj */;
@@ -58,21 +50,11 @@
 		28CF758C1A6CAA4D00D635DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28CF758E1A6CAA4D00D635DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28CF75911A6CAA4D00D635DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		28CF75971A6CAA4D00D635DE /* MBGridLayout-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBGridLayout-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28CF759C1A6CAA4D00D635DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28CF759D1A6CAA4D00D635DE /* MBGridLayout_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBGridLayout_DemoTests.m; sourceTree = "<group>"; };
 		28CF75DD1A6CB08600D635DE /* MBGridLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBGridLayout.xcodeproj; path = ../MBGridLayout/MBGridLayout.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		28CF757B1A6CAA4D00D635DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28CF75941A6CAA4D00D635DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,7 +69,6 @@
 			children = (
 				28CF75DD1A6CB08600D635DE /* MBGridLayout.xcodeproj */,
 				28CF75801A6CAA4D00D635DE /* MBGridLayout-Demo */,
-				28CF759A1A6CAA4D00D635DE /* MBGridLayout-DemoTests */,
 				28CF757F1A6CAA4D00D635DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				28CF757E1A6CAA4D00D635DE /* MBGridLayout-Demo.app */,
-				28CF75971A6CAA4D00D635DE /* MBGridLayout-DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,23 +101,6 @@
 			children = (
 				28CF75821A6CAA4D00D635DE /* Info.plist */,
 				28CF75831A6CAA4D00D635DE /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		28CF759A1A6CAA4D00D635DE /* MBGridLayout-DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				28CF759D1A6CAA4D00D635DE /* MBGridLayout_DemoTests.m */,
-				28CF759B1A6CAA4D00D635DE /* Supporting Files */,
-			);
-			path = "MBGridLayout-DemoTests";
-			sourceTree = "<group>";
-		};
-		28CF759B1A6CAA4D00D635DE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				28CF759C1A6CAA4D00D635DE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +135,6 @@
 			productReference = 28CF757E1A6CAA4D00D635DE /* MBGridLayout-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28CF75961A6CAA4D00D635DE /* MBGridLayout-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28CF75A41A6CAA4D00D635DE /* Build configuration list for PBXNativeTarget "MBGridLayout-DemoTests" */;
-			buildPhases = (
-				28CF75931A6CAA4D00D635DE /* Sources */,
-				28CF75941A6CAA4D00D635DE /* Frameworks */,
-				28CF75951A6CAA4D00D635DE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28CF75991A6CAA4D00D635DE /* PBXTargetDependency */,
-			);
-			name = "MBGridLayout-DemoTests";
-			productName = "MBGridLayout-DemoTests";
-			productReference = 28CF75971A6CAA4D00D635DE /* MBGridLayout-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,10 +146,6 @@
 				TargetAttributes = {
 					28CF757D1A6CAA4D00D635DE = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					28CF75961A6CAA4D00D635DE = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 28CF757D1A6CAA4D00D635DE;
 					};
 				};
 			};
@@ -228,7 +169,6 @@
 			projectRoot = "";
 			targets = (
 				28CF757D1A6CAA4D00D635DE /* MBGridLayout-Demo */,
-				28CF75961A6CAA4D00D635DE /* MBGridLayout-DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,13 +201,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28CF75951A6CAA4D00D635DE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -281,22 +214,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28CF75931A6CAA4D00D635DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28CF759E1A6CAA4D00D635DE /* MBGridLayout_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28CF75991A6CAA4D00D635DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28CF757D1A6CAA4D00D635DE /* MBGridLayout-Demo */;
-			targetProxy = 28CF75981A6CAA4D00D635DE /* PBXContainerItemProxy */;
-		};
 		28CF75E71A6CB09200D635DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBGridLayout;
@@ -420,40 +340,6 @@
 			};
 			name = Release;
 		};
-		28CF75A51A6CAA4D00D635DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MBGridLayout-DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBGridLayout-Demo.app/MBGridLayout-Demo";
-			};
-			name = Debug;
-		};
-		28CF75A61A6CAA4D00D635DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MBGridLayout-DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBGridLayout-Demo.app/MBGridLayout-Demo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -471,15 +357,6 @@
 			buildConfigurations = (
 				28CF75A21A6CAA4D00D635DE /* Debug */,
 				28CF75A31A6CAA4D00D635DE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28CF75A41A6CAA4D00D635DE /* Build configuration list for PBXNativeTarget "MBGridLayout-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28CF75A51A6CAA4D00D635DE /* Debug */,
-				28CF75A61A6CAA4D00D635DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

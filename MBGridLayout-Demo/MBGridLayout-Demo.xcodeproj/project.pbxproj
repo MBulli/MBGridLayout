@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28192E9D1A6CBC2700D2FA8B /* MBGridLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CF75E31A6CB08700D635DE /* MBGridLayout.framework */; };
 		28CF75841A6CAA4D00D635DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75831A6CAA4D00D635DE /* main.m */; };
 		28CF75871A6CAA4D00D635DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75861A6CAA4D00D635DE /* AppDelegate.m */; };
 		28CF758A1A6CAA4D00D635DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75891A6CAA4D00D635DE /* ViewController.m */; };
 		28CF758D1A6CAA4D00D635DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CF758B1A6CAA4D00D635DE /* Main.storyboard */; };
 		28CF758F1A6CAA4D00D635DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CF758E1A6CAA4D00D635DE /* Images.xcassets */; };
 		28CF75921A6CAA4D00D635DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CF75901A6CAA4D00D635DE /* LaunchScreen.xib */; };
+		28CF75EE1A6CB4A100D635DE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75ED1A6CB4A100D635DE /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +32,6 @@
 			remoteGlobalIDString = 28CF75BC1A6CAA6A00D635DE;
 			remoteInfo = MBGridLayoutTests;
 		};
-		28CF75E61A6CB09200D635DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28CF75DD1A6CB08600D635DE /* MBGridLayout.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 28CF75B01A6CAA6A00D635DE;
-			remoteInfo = MBGridLayout;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +46,8 @@
 		28CF758E1A6CAA4D00D635DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28CF75911A6CAA4D00D635DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		28CF75DD1A6CB08600D635DE /* MBGridLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBGridLayout.xcodeproj; path = ../MBGridLayout/MBGridLayout.xcodeproj; sourceTree = "<group>"; };
+		28CF75EC1A6CB4A100D635DE /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		28CF75ED1A6CB4A100D635DE /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28192E9D1A6CBC2700D2FA8B /* MBGridLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,14 +82,16 @@
 		28CF75801A6CAA4D00D635DE /* MBGridLayout-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				28CF75811A6CAA4D00D635DE /* Supporting Files */,
 				28CF75851A6CAA4D00D635DE /* AppDelegate.h */,
 				28CF75861A6CAA4D00D635DE /* AppDelegate.m */,
-				28CF75881A6CAA4D00D635DE /* ViewController.h */,
-				28CF75891A6CAA4D00D635DE /* ViewController.m */,
-				28CF758B1A6CAA4D00D635DE /* Main.storyboard */,
 				28CF758E1A6CAA4D00D635DE /* Images.xcassets */,
 				28CF75901A6CAA4D00D635DE /* LaunchScreen.xib */,
-				28CF75811A6CAA4D00D635DE /* Supporting Files */,
+				28CF758B1A6CAA4D00D635DE /* Main.storyboard */,
+				28CF75EC1A6CB4A100D635DE /* MenuViewController.h */,
+				28CF75ED1A6CB4A100D635DE /* MenuViewController.m */,
+				28CF75881A6CAA4D00D635DE /* ViewController.h */,
+				28CF75891A6CAA4D00D635DE /* ViewController.m */,
 			);
 			path = "MBGridLayout-Demo";
 			sourceTree = "<group>";
@@ -128,7 +128,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				28CF75E71A6CB09200D635DE /* PBXTargetDependency */,
 			);
 			name = "MBGridLayout-Demo";
 			productName = "MBGridLayout-Demo";
@@ -211,18 +210,11 @@
 				28CF758A1A6CAA4D00D635DE /* ViewController.m in Sources */,
 				28CF75871A6CAA4D00D635DE /* AppDelegate.m in Sources */,
 				28CF75841A6CAA4D00D635DE /* main.m in Sources */,
+				28CF75EE1A6CB4A100D635DE /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		28CF75E71A6CB09200D635DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBGridLayout;
-			targetProxy = 28CF75E61A6CB09200D635DE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		28CF758B1A6CAA4D00D635DE /* Main.storyboard */ = {

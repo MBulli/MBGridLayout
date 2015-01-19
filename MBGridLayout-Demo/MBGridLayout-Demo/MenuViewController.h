@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuViewController.h
 //  MBGridLayout-Demo
 //
 //  Created by Markus Bullmann on 18/01/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property(nonatomic, strong) NSNumber *selectedID;
+@interface MenuViewController : UITableViewController
 
 @end
-

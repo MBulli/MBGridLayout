@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28CA28B41A7728E500529750 /* SimpleLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA28B31A7728E500529750 /* SimpleLayoutTests.m */; };
+		28CA28B61A772B3000529750 /* GridViewItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA28B51A772B3000529750 /* GridViewItemTests.m */; };
 		28CF75B71A6CAA6A00D635DE /* MBGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CF75B61A6CAA6A00D635DE /* MBGridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CF75BD1A6CAA6A00D635DE /* MBGridLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CF75B11A6CAA6A00D635DE /* MBGridLayout.framework */; };
-		28CF75C41A6CAA6A00D635DE /* MBGridLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75C31A6CAA6A00D635DE /* MBGridLayoutTests.m */; };
+		28CF75C41A6CAA6A00D635DE /* GridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75C31A6CAA6A00D635DE /* GridViewTests.m */; };
 		28CF75EA1A6CB35600D635DE /* MBGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CF75E81A6CB35600D635DE /* MBGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CF75EB1A6CB35600D635DE /* MBGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CF75E91A6CB35600D635DE /* MBGridView.m */; };
 		C73ECA8D01F4849F698BDC02 /* libPods-MBGridLayoutTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5587B93DFB6C59E00A2CE72 /* libPods-MBGridLayoutTests.a */; };
@@ -26,12 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28CA28B31A7728E500529750 /* SimpleLayoutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLayoutTests.m; sourceTree = "<group>"; };
+		28CA28B51A772B3000529750 /* GridViewItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewItemTests.m; sourceTree = "<group>"; };
+		28CA28B71A772C0A00529750 /* TestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHelper.h; sourceTree = "<group>"; };
 		28CF75B11A6CAA6A00D635DE /* MBGridLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBGridLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CF75B51A6CAA6A00D635DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CF75B61A6CAA6A00D635DE /* MBGridLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBGridLayout.h; sourceTree = "<group>"; };
 		28CF75BC1A6CAA6A00D635DE /* MBGridLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBGridLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CF75C21A6CAA6A00D635DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28CF75C31A6CAA6A00D635DE /* MBGridLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBGridLayoutTests.m; sourceTree = "<group>"; };
+		28CF75C31A6CAA6A00D635DE /* GridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewTests.m; sourceTree = "<group>"; };
 		28CF75E81A6CB35600D635DE /* MBGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBGridView.h; sourceTree = "<group>"; };
 		28CF75E91A6CB35600D635DE /* MBGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBGridView.m; sourceTree = "<group>"; };
 		7AFC4CC57ADB1A71FB3778EB /* Pods-MBGridLayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBGridLayoutTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MBGridLayoutTests/Pods-MBGridLayoutTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +106,10 @@
 		28CF75C01A6CAA6A00D635DE /* MBGridLayoutTests */ = {
 			isa = PBXGroup;
 			children = (
-				28CF75C31A6CAA6A00D635DE /* MBGridLayoutTests.m */,
+				28CA28B71A772C0A00529750 /* TestHelper.h */,
+				28CF75C31A6CAA6A00D635DE /* GridViewTests.m */,
+				28CA28B31A7728E500529750 /* SimpleLayoutTests.m */,
+				28CA28B51A772B3000529750 /* GridViewItemTests.m */,
 				28CF75C11A6CAA6A00D635DE /* Supporting Files */,
 			);
 			path = MBGridLayoutTests;
@@ -283,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CF75C41A6CAA6A00D635DE /* MBGridLayoutTests.m in Sources */,
+				28CF75C41A6CAA6A00D635DE /* GridViewTests.m in Sources */,
+				28CA28B41A7728E500529750 /* SimpleLayoutTests.m in Sources */,
+				28CA28B61A772B3000529750 /* GridViewItemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
